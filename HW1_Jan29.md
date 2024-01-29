@@ -1,0 +1,33 @@
+# Themes for the Class Clock
+
+1. **NYU Abu Dhabi**
+   - Make a clock that represents the 4-year cycle that students go through. The storyline goes from admissions/Marhaba through studyaways, J-terms, and other components of the NYUAD experience, and ends with commencement. We can incorporate a lot of different references to the campus such as the palms, d2, flights, the library, etc.
+
+2. **Astronomy/Space**
+   - Create a clock with many different astronomical references such as the constellations, the planets, the satellites, and different space exploration components. We can have the first moon landing as one of the historical moments to represent in the clock.
+
+3. **Disco**
+   - Make the clock very unserious and shiny, disco-inspired with a big disco ball and a lot of light and musical elements.
+
+# Topics to Research
+
+1. **Laser Cutting Models**
+   - Laser Cutting Models are models that are built from materials that are cut using laser cutting. The idea is to design cuts and pieces in a way that is efficient and aesthetic using techniques such as repetitive patterns. We will be using a lot of laser cutting for the clock so this is of very high relevance to the final project.
+   - [Link to Resource](https://www.instructables.com/How-to-Design-and-Laser-Cut-a-Scale-Model-Building/)
+
+2. **Gears**
+   - "A gear is a wheel with teeth around its circumference. Gears are usually found in sets of two or more, used to transmit rotation from the axis of one gear to the axis of another." I am terrified of gears and everything related to them, e.g. the designing, combining, and use of gears. If we are to build any mechanism, it would be very difficult to avoid gears, which is why this is a topic that needs to be researched.
+   - [Link to Resource](https://science.howstuffworks.com/transport/engines-equipment/gear.htm)
+
+3. **Al Jazari & his Mechanical Devices**
+   - Al Jazari, named the Father of Robotics, is an Engineer from the Islamic Golden Age. He is best known for his book "The Book of Knowledge of Ingenious Mechanical Devices", which describes the technicality behind different pieces of machinery he has created. The mechanisms used are very simple and creative in various ways, which can be used as a source of inspiration.
+   - [Link to Resource](https://www.nationalgeographic.com/history/history-magazine/article/ismail-al-jazari-muslim-inventor-called-father-robotics)
+
+4. **teamLab**
+   - teamLab is an interdisciplinary art collective, a team of international artists that hold exhibitions all over the world. I saw the work of teamLab recently at the Manar Abu Dhabi, Samaliyah Island exhibition, which I found to be very inspirational and it sparked my interest in looking further into their work. This can serve as a source of inspiration for incorporating modern technology into our clock.
+   - [Link to Resource](https://www.teamlab.art/art/)
+
+5. **Kinetic Art**
+   - "Kinetic art is any type of artwork that contains moving elements or requires movement in the viewer to fully perceive the intended effect." It is a very interesting art movement that is highly relevant if we are to incorporate moving pieces in a very artistic way (which I am sure we will)
+   - [Link to Resource 1](https://www.tate.org.uk/art/art-terms/k/kinetic-art)
+   - [Link to Resource 2](https://www.studiobinder.com/blog/what-is-kinetic-art/)
