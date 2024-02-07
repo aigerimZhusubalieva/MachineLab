@@ -10,7 +10,7 @@
 
 ### 1. With your team, sketch out your initial overall plan for your project.
 
-![Overall Plan of the Candy Shop](/images/HW3-Plan.png)
+![Overall Plan of the Candy Shop](images/HW3-Plan.png)
 
 
 a. The tree: We will use laser-cut wood to assemble a tree
