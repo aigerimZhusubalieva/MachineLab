@@ -30,7 +30,7 @@ c. The music box
 
 d. The signs 
 
-### Make a rough sketch of how you will build this most frightening element. Include as many details as you can. After I review this, you will start building, so you should include whatever information you think you will need to start working. This also helps catch gaps in your concept.
+### 3. Make a rough sketch of how you will build this most frightening element. Include as many details as you can. After I review this, you will start building, so you should include whatever information you think you will need to start working. This also helps catch gaps in your concept.
 
 ![Overall Scheme of the Candy Shop](images/HW3-Scheme.jpg)
 
