@@ -32,7 +32,7 @@ d. The signs
 
 ### Make a rough sketch of how you will build this most frightening element. Include as many details as you can. After I review this, you will start building, so you should include whatever information you think you will need to start working. This also helps catch gaps in your concept.
 
-![Overall Scheme of the Candy Shop](images/HW-3-scheme.jpg)
+![Overall Scheme of the Candy Shop](images/HW3-Scheme.jpg)
 
 a. The tree is divided into building the branches, making it move, and decorations. 
 - [Laser Cut the tree base](https://3axis.co/laser-cut-decor-tree-jewelry-stand-cdr-file/eo0qgy01/)
