@@ -31,11 +31,17 @@ c. The music box
 d. The signs 
 
 ### Make a rough sketch of how you will build this most frightening element. Include as many details as you can. After I review this, you will start building, so you should include whatever information you think you will need to start working. This also helps catch gaps in your concept.
+
+![Overall Scheme of the Candy Shop](images/HW-3-scheme.jpg)
+
 a. The tree is divided into building the branches, making it move, and decorations. 
 - [Laser Cut the tree base](https://3axis.co/laser-cut-decor-tree-jewelry-stand-cdr-file/eo0qgy01/)
 - To move the tree, we will use a motor to make it spin from underneath
 - Add details like cotton candy and lollipop - either laser cut or laminated paper
+
+![Laser Cut Tree Model](images/HW3-TREE.png)
   
 b. The bunny moves up and down as it is propelled below. A servo motor (continuous or not) spins a rod, which has a metal plate on the end. The metal plate is off-centered from the rod, such that as the rod spins, the bunny platform is pushed up and down
+![Bunny Mechanism](images/HW3-Bunny.png)
 
 c. The signs will be illuminated from behind with an LED strip. The sign itself will be of laser-cut wood but will have holes where the letters and symbols are. Those holes will then be filled with acrylic.
