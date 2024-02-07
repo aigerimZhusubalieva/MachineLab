@@ -10,15 +10,24 @@
 
 ### 1. With your team, sketch out your initial overall plan for your project.
 
-a. The tree: We will use laser cut wood to assemble a tree
+![Overall Plan of the Candy Shop](/images/HW3-Plan.png)
+
+
+a. The tree: We will use laser-cut wood to assemble a tree
+
 b. [The gumball machine](https://www.hellowonderful.co/post/diy-cardboard-gumball-machine/) 
+
 c. The music box: We were researching [how to make a music box](https://www.youtube.com/watch?v=_6zPhHdJTcM). The mechanism seems outside of our bandwidth, so we are considering using a speaker or a preexisting music box that we wind continuously with a servo motor
+
 d. The signs: We will use neopixels, the laser cutter (wood & acrylic), and wires. 
 
 ### 2. Identify the most risky, complicated, or frightening element of your project. This is what you will work on first.
 a. The tree
+
 b. The gumball machine 
+
 c. The music box
+
 d. The signs 
 
 ### Make a rough sketch of how you will build this most frightening element. Include as many details as you can. After I review this, you will start building, so you should include whatever information you think you will need to start working. This also helps catch gaps in your concept.
