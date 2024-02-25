@@ -12,6 +12,10 @@ We have started working on the bunnies in the last week. First, we thought long 
 
 <img src="images/bunny_move1.png" alt="bunny moving up and down" height="225"> <img src="images/bunny_move2.png" alt="bunny moving up and down" height="225"> <img src="images/bunny_move1.png" alt="bunny moving up and down" height="225">
 
-We have figured out how to attach the shaft to the servo motor using an attachment that comes for the motor and are now in the middle of figuring out how the bunny attaches to the shaft. We imagine it to be something similar to the image below, but by attaching a wooden piece to a shaft coupling. 
+We have figured out how to attach the shaft to the servo motor using an attachment that comes for the motor and are now in the middle of figuring out how the bunny attaches to the shaft. We imagine it to be something similar to the image below, but by attaching a wooden piece to a shaft coupling. In the demo video, you can see how we would have more than one bunnies moving together.  
 
-<img src="images/bunny1.png" alt="how bunny is attached" height="225"> <a href="https://youtube.com/shorts/7R0UW9Pp2X0" target="_blank"><img src="images/neopixel_pic.png" alt="Bunny Prototype Demo" height="225"></a>
+<img src="images/bunny1.png" alt="how bunny is attached" height="225"> <a href="https://youtube.com/shorts/7R0UW9Pp2X0" target="_blank"><img src="images/bunny_demo.png" alt="Bunny Prototype Demo" height="225"></a>
+
+**Tree**
+
+We have laser cut and built the base of the tree :)
