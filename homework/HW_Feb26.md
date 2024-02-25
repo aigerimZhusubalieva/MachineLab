@@ -8,6 +8,10 @@ We also started working on the box for the signs - we came up with different des
 
 **Bunnies**
 
-We have started working on the bunnies in the last week. First, we thought long and hard about how we could make the bunnies go up and down AND be stable at the same time. After some design iterations, we have settled on using some tricks to make it seem like the bunnies are moving inside the hat but actually have the rode attached to the bunnies from the back. Since we are already using a shaft and a motor to make a rotational movement, we thought it would be not so difficult in terms of figuring out how to add more bunnies. We decided we want to have two separate sets of bunnies that are positioned in a way that when half of the bunnies go up, the other half goes down, making every other bunny have a different position (in or out of hat)
-q  `
-<img src="images/neopixel_connection.png" alt="Connection of the Neopixel" height="225">
+We have started working on the bunnies in the last week. First, we thought long and hard about how we could make the bunnies go up and down AND be stable at the same time. After some design iterations, we have settled on using some tricks to make it seem like the bunnies are moving inside the hat but actually have the rope attached to the bunnies from the back. Since we are already using a shaft and a motor to make a rotational movement, we thought it would not be so difficult in terms of figuring out how to add more bunnies. We decided we want to have two separate sets of bunnies that are positioned in a way that when half of the bunnies go up, the other half goes down, making every other bunny have a different position (in or out of hat)
+
+<img src="images/bunny_move1.png" alt="bunny moving up and down" height="225"> <img src="images/bunny_move2.png" alt="bunny moving up and down" height="225"> <img src="images/bunny_move1.png" alt="bunny moving up and down" height="225">
+
+We have figured out how to attach the shaft to the servo motor using an attachment that comes for the motor and are now in the middle of figuring out how the bunny attaches to the shaft. We imagine it to be something similar to the image below, but by attaching a wooden piece to a shaft coupling. 
+
+<img src="images/bunny1.png" alt="how bunny is attached" height="225"> <a href="https://youtube.com/shorts/7R0UW9Pp2X0" target="_blank"><img src="images/neopixel_pic.png" alt="Bunny Prototype Demo" height="225"></a>
