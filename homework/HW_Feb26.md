@@ -6,4 +6,4 @@ Based on the last iteration's feedback, we focused on making the connection betw
 
 We also started working on the box for the signs - we came up with different designs and the next step is to laser cut and put the boxes together.
 
-[![Neopixel Party](https://img.youtube.com/shorts/wQpaWzFWmGU/0.jpg)](https://youtube.com/shorts/wQpaWzFWmGU)
+[![Neopixel Party](images/neopixel_connection.png)](https://youtube.com/shorts/wQpaWzFWmGU)
