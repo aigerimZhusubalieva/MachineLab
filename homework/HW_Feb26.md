@@ -4,3 +4,5 @@ Based on the last iteration's feedback, we focused on making the connection betw
 <img src="images/neopixel_connection.png" alt="Connection of the Neopixel" width="300">
 
 https://github.com/aigerimZhusubalieva/MachineLab/blob/main/homework/images/IMG_1251.mp4)https://github.com/aigerimZhusubalieva/MachineLab/blob/main/homework/images/IMG_1251.mp4
+
+[![Neopixel Demo]({image-url})]({[video-url](https://github.com/aigerimZhusubalieva/MachineLab/blob/main/homework/images/IMG_1251.mp4)https://github.com/aigerimZhusubalieva/MachineLab/blob/main/homework/images/IMG_1251.mp4)} "Video")
