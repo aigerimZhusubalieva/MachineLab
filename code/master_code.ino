@@ -63,11 +63,12 @@ void loop() {
 }
 
 void initServoMotors() {
-  servoMotor1.attach(SERVO_PIN_1);  // Attach motor 1 to pin A2
-  servoMotor2.attach(SERVO_PIN_2);  // Attach motor 2 to pin A3
   
   servoMotor1.write(0);  // Set initial position of motor 1 to 0 degrees
   servoMotor2.write(50); // Set initial position of motor 2 to 180 degrees
+  
+  servoMotor1.attach(SERVO_PIN_1);  // Attach motor 1 to pin A2
+  servoMotor2.attach(SERVO_PIN_2);  // Attach motor 2 to pin A3
   
   delay(1000);  // Wait for the servos to reach their positions
   Serial.println("Initial positions done!");
