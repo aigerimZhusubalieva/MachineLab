@@ -17,8 +17,14 @@
 #define SERVO_PIN_2 A3
 #define BUTTON_PIN  8
 
-bool buttonPreviouslyHigh = true; // Flag to track previous state of the button
-bool neopixelsDone = false;
+#define MOTOR_ENA_PIN 12  // Motor enable pin
+#define MOTOR_IN1_PIN 10  // Motor input pin 1
+#define MOTOR_IN2_PIN 11  // Motor input pin 2
+
+bool buttonPreviouslyHigh = false; // Flag to track previous state of the button
+bool action = false; // Flag to track if motor is running
+bool buttonState = true;
+int speed = 50;
 
 Adafruit_VS1053_FilePlayer musicPlayer =
   Adafruit_VS1053_FilePlayer(SHIELD_RESET, SHIELD_CS, SHIELD_DCS, DREQ, CARDCS);
@@ -32,55 +38,64 @@ void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP);
   pinMode(13, OUTPUT);
 
-  // Initialize servo motors
+  initTreeMotor();
   initServoMotors();
+  initNeoPixels();
 }
 
-
 void loop() {
-  bool buttonState = digitalRead(BUTTON_PIN);
-
-  if (buttonState == HIGH && buttonPreviouslyHigh) {
+  if (buttonState && buttonPreviouslyHigh && !action) {
     // Button state has changed from high to low, start all actions
     Serial.println("Button pressed!");
     startAllActions();
-
-    // Set the flag to false to prevent starting actions again until the button is released
     buttonPreviouslyHigh = false;
+    action = true;
   }
-
-  // Run NeoPixel animation and move servo motors while music is playing
-  if(!musicPlayer.stopped()) {
+  if (digitalRead(BUTTON_PIN) == HIGH && !buttonPreviouslyHigh) {
+    // Button has been released, reset the flag
+    buttonPreviouslyHigh = true;
+  }
+  if (action && !musicPlayer.stopped()) {
     moveServoMotors();
-    if(!neopixelsDone){runNeoPixelAnimation();}
-  }
-  else{
+    moveTreeMotor();
+    // if(!neopixelsDone){runNeoPixelAnimation();}
+  } else if (action && musicPlayer.stopped()) {
     turnOffNeoPixels();
+    stopMotor();
     digitalWrite(13, HIGH);
-    Serial.println("All actions completed!");
+    action = false;
+    // Serial.println("All actions completed!");
   }
-
 }
 
 void initServoMotors() {
-  
   servoMotor1.write(0);  // Set initial position of motor 1 to 0 degrees
   servoMotor2.write(50); // Set initial position of motor 2 to 180 degrees
-  
+
   servoMotor1.attach(SERVO_PIN_1);  // Attach motor 1 to pin A2
   servoMotor2.attach(SERVO_PIN_2);  // Attach motor 2 to pin A3
-  
-  delay(1000);  // Wait for the servos to reach their positions
-  Serial.println("Initial positions done!");
+
+  Serial.println("Bunnies: Initial positions done!");
+}
+
+void initTreeMotor(){
+  pinMode(MOTOR_ENA_PIN, OUTPUT);
+  pinMode(MOTOR_IN1_PIN, OUTPUT);
+  pinMode(MOTOR_IN2_PIN, OUTPUT);
+
+  digitalWrite(MOTOR_IN1_PIN, LOW); // Set motor direction
+  digitalWrite(MOTOR_IN2_PIN, LOW);
+
+  Serial.println("Tree initialized!");
 }
 
 void startAllActions() {
   Serial.println("Starting all actions...");
-
-  // Initialize the music player
   initMusicPlayer();
-  initNeoPixels();
-  playMusic("/candy001.mp3");  
+  playMusic("/candy001.mp3");
+  runNeoPixelAnimation();
+  moveTreeMotor();
+  moveServoMotors();
 }
 
 void initMusicPlayer() {
@@ -97,7 +112,7 @@ void initMusicPlayer() {
   }
 
   // Set volume for left, right channels
-  musicPlayer.setVolume(20, 20);
+  musicPlayer.setVolume(1, 1);
 
   // Use DREQ interrupt
   musicPlayer.useInterrupt(VS1053_FILEPLAYER_PIN_INT);
@@ -119,9 +134,8 @@ void runNeoPixelAnimation() {
   for(int i = 0; i < NUMPIXELS; i++) {
     strip.setPixelColor(i, strip.Color(64, 0, 64)); // Purple color
     strip.show(); // Update strip with new color
-    delay(75);    // Adjust delay as needed
+    delay(50);    // Adjust delay as needed
   }
-  neopixelsDone = true;
 }
 
 void turnOffNeoPixels() {
@@ -149,5 +163,17 @@ void moveServoMotors() {
   servoMotor2.write(25);
   
   delay(1200);  // Wait for the servos to reach their positions
+}
+
+void moveTreeMotor() {
+  analogWrite(MOTOR_ENA_PIN, speed); // Set motor speed
+  digitalWrite(MOTOR_IN1_PIN, LOW); // Set motor direction
+  digitalWrite(MOTOR_IN2_PIN, HIGH);
+  delay(100);
+}
+
+void stopMotor() {
+  analogWrite(MOTOR_ENA_PIN, 0); // Turn off motor
+  Serial.println("Motor Stopped");
 }
  
